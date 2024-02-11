@@ -1,0 +1,189 @@
+
+.body{
+    background-color: rgb(45, 51, 58);
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    animation: slowlyMove 40s infinite linear;
+}
+#home{
+    padding-bottom: 100px;
+}
+
+img {
+    margin-top: -60px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+#slash{
+    border-style:  groove;
+    color: white;
+    margin-top: -100;
+}
+#Name h1 {
+    text-align: center;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.992);
+    padding-top: 100px;
+}
+
+#aboutme {
+    font: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#p {
+    margin-left: 100px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#button1{
+    width: 160px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left:650px;
+    margin-top: 50px;
+    background-color: rgb(9, 121, 225);
+    color: white;
+}
+#button1:hover {
+    background-color: navy; 
+}
+#container {
+    display: flex;
+}
+
+#achievements {
+    font-size: 18px;
+    background-image: url('abstract-purple-neon-light-line-geometric-cyber-dynamic-slash-on-grey-black-circuit-design-modern-futuristic-technology-background-vector.jpg');
+}
+
+
+#chars1 li {
+    padding: 15px;
+    color: aliceblue;
+}
+#elem{
+    position: relative;
+    display: inline-block;
+    
+}
+#elem img{
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+.title {
+    visibility: collapse;
+    position: absolute;
+    border-radius:5px;
+    bottom: 15px;
+    left: 28px;
+    width: 0%; 
+    color: white;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    transition: width 0.3s ease;
+    white-space: nowrap;
+}
+#elem:hover .title{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: visible;
+}
+
+#Jh{
+    position: relative;
+    display: inline-block;
+    
+}
+#Jh img{
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+.title {
+    visibility: collapse;
+    position: absolute;
+    border-radius:5px;
+    bottom: 15px;
+    left: 28px;
+    width: 0%; 
+    color: white;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    transition: width 0.3s ease; 
+    white-space: nowrap;
+}
+#Jh:hover .title{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: visible;
+}
+#title1 h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+
+#container2 {
+    display: flex;
+}
+#skills{
+    font-size: 25px;
+    padding-bottom: 300px;
+}
+
+#title2 h1 {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(101, 224, 19);
+    padding: 40px;
+
+}
+
+#chars3 {
+    margin-left: 100px; 
+    color: aliceblue;
+}
+
+#chars4 {
+    margin-left: 350px; 
+    color: aliceblue;
+}
+#chars5  {
+    margin-left: 350px; 
+    color: aliceblue;
+}
+a{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+#contacts h1 {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(101, 224, 19);
+    padding-top: 100px;
+}
+
+
+
+@keyframes slowlyMove {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
